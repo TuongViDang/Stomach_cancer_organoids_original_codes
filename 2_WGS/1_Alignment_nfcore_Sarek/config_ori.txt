@@ -1,0 +1,31 @@
+singularity {
+    enabled = true
+    runOptions = "--bind $PWD"
+}
+
+process {
+    executor = 'slurm'
+    withName:'GATK4_APPLYBQSR|GATK4_APPLYBQSR_SPARK|GATK4_BASERECALIBRATOR|GATK4_BASERECALIBRATOR_SPARK|GATK4_GATHERBQSRREPORTS'{
+        memory = 100.GB
+    }
+    withName:'BAM_VARIANT_CALLING_GERMLINE_ALL|BAM_VARIANT_CALLING_SINGLE_STRELKA|MERGE_STRELKA'{
+       memory = 100.GB
+    }
+    withName:'STRELKA.*|MANTA.*' {
+        memory = 60.GB 
+    }
+    withName:'GATK4_MERGEVCFS'{
+        memory = 60.GB
+   }
+   withName:'VCF_ANNOTATE_ALL|VCF_ANNOTATE_ENSEMBLVEP|ENSEMBLVEP_VEP' {
+        container = "/group/poetsch_projects/poetsch_sc/nf-core_run/docker.io-nfcore-vep-108.2.GRCh38.img.pulling.1693487816658"
+      }
+}
+
+
+params {
+    max_memory = 500.GB
+    max_cpus = 40
+    max_time = 48.h
+}
+

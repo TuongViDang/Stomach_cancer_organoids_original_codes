@@ -1,0 +1,14 @@
+patient,sex,status,sample,lane,fastq_1,fastq_2
+OO99,XY,1,OO99_tumor,L001,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr20.1.fastq.gz,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr20.2.fastq.gz
+OO99,XY,1,OO99_tumor2,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr8.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr8.2.fastq.gz
+OO99,XY,1,OO99_ex,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr9.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr9.2.fastq.gz
+OO99,XY,1,OO99_in,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr2.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr2.2.fastq.gz
+OO99,XY,0,OO99_normal,L001,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr27.1.fastq.gz,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr27.2.fastq.gz
+OO100,XY,1,OO100_tumor,L001,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr21.1.fastq.gz,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr21.2.fastq.gz
+OO100,XY,1,OO100_ex,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr3.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr3.2.fastq.gz
+OO100,XY,1,OO100_in,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr3.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr3.2.fastq.gz
+OO100,XY,0,OO100_normal,L001,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr28.1.fastq.gz,/group/poetsch_projects/poetsch_sc/WGS_data/wgs_S8039Nr28.2.fastq.gz
+OO77,XY,1,OO77_tumor,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr4.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr4.2.fastq.gz
+OO77,XY,1,OO77_ex,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr5.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9891Nr5.2.fastq.gz
+OO77,XY,1,OO77_in,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr1.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S10352/S10352_1/01_fastq/wgs_S10352Nr1.2.fastq.gz
+OO77,XY,0,OO77_normal,L001,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9335Nr12.1.fastq.gz,/group/poetsch_projects/poetsch_sc/CeGaT/S9891/S9891_1/01_fastq/wgs_S9335Nr12.2.fastq.gz
